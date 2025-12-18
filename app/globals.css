@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: var(--font-sora);
+  --font-sans: var(--font-inter);
+}
+
+@layer components {
+  .card {
+    @apply block p-5 h-full bg-white rounded-xl border border-gray-200 transition-all duration-200 hover:border-gray-300 hover:shadow-md hover:-translate-y-0.5;
+  }
+
+  .capsule {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-50 text-gray-700 font-mono border border-gray-200;
+  }
+  
+  .btn-social {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 text-gray-700 text-sm font-medium transition-all duration-200 hover:bg-gray-200 hover:text-black;
+  }
+}
+
+@layer base {
+  body {
+    @apply text-gray-900 bg-white font-mono antialiased;
+  }
+
+  h2 {
+    @apply text-lg font-semibold border-b border-gray-200 pb-2 mb-4;
+  }
+}

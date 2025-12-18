@@ -1,0 +1,18 @@
+[
+    {
+        "company": "Placeholder",
+        "role": "Software Engineer Intern",
+        "location": "Location",
+        "period": "Time",
+        "description": "Desc",
+        "logo": "/logos/tech_company_logo.png"
+    },
+    {
+        "company": "Placeholder",
+        "role": "Software Engineer Intern",
+        "location": "Location",
+        "period": "Time",
+        "description": "Desc",
+        "logo": "/logos/tech_company_logo.png"
+    }
+]

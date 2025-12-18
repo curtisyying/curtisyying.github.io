@@ -1,0 +1,11 @@
+[
+    {
+        "title": "AI Google Review Agent",
+        "subtitle": "Subtitle",
+        "impact": [
+        "Impact 1",
+        "Impact 2"
+        ],
+        "tech": ["Python", "LangChain", "Qdrant", "Flask", "JavaScript"]
+    }
+]

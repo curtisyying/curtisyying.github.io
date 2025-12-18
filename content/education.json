@@ -1,0 +1,22 @@
+[
+    {
+        "school": "Brown University",
+        "degree": "B.S. Applied Mathematics & Computer Science",
+        "date": "",
+        "gpa": "4.0/4.0",
+        "coursework": [
+            "Advanced Data Structures & Algorithms",
+            "Computer Systems",
+            "Deep Learning",
+            "Database Management Systems",
+            "Networks",
+            "Applied Cryptography",
+            "Operations Research"
+        ],
+        "activities": [
+            "Full Stack @ Brown (web development)",
+            "Hack @ Brown",
+            "Forecasting Club"
+        ]
+    }
+]

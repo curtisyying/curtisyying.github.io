@@ -1,0 +1,4 @@
+{
+    "Languages": ["Python", "C/C++", "Java", "SQL"],
+    "Frameworks & Tools": ["PyTorch", "TensorFlow", "Sklearn", "CUDA"]
+}

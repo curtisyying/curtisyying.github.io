@@ -47,7 +47,7 @@ export default function Home() {
           className={`text-4xl md:text-5xl font-bold tracking-tight text-black text-center leading-tight transition-opacity duration-1000 ease-in-out ${opacityClass}`}
         >
           ✨Hi!✨ <br />
-          I&apos;m Curtis Ying, <br />
+          I'm Curtis Ying, <br />
           and welcome to my website!
         </h1>
       </div>

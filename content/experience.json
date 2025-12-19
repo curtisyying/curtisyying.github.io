@@ -1,18 +1,42 @@
 [
     {
-        "company": "Placeholder",
-        "role": "Software Engineer Intern",
-        "location": "Location",
-        "period": "Time",
-        "description": "Desc",
-        "logo": "/logos/tech_company_logo.png"
+        "company": "Brown University CS",
+        "role": "Teaching Assistant",
+        "location": "Providence, RI",
+        "date": "August 2025 - Present",
+        "description": "Assisting in lecture, project, and exam development for CS300 Computer Systems including hosting weekly sections/office hours, grading, and student support on EdStem",
+        "logo": "/logos/brown_cs_dept.jpeg"
     },
     {
-        "company": "Placeholder",
-        "role": "Software Engineer Intern",
-        "location": "Location",
-        "period": "Time",
-        "description": "Desc",
-        "logo": "/logos/tech_company_logo.png"
+        "company": "GliaLink",
+        "role": "AI and Software Engineer",
+        "location": "Providence, RI",
+        "date": "August 2025 - Present",
+        "description": "Developed custom pages and custom AI post-recommendation algorithm for GliaLink, a platform to connect students with labs and research faculty",
+        "logo": "/logos/glialink.jpeg"
+    },
+    {
+        "company": "Brown University Lee Lab",
+        "role": "Lead AI Researcher",
+        "location": "Providence, RI",
+        "date": "June 2025 - Present",
+        "description": "Developing end-to-end multimodal AI models using RL and LLM fine-tuning to improve surgery prediction and planning, with planned deployment to Rhode Island Hospital",
+        "logo": "/logos/brown_med_school.jpeg"
+    },
+    {
+        "company": "New Horizon Soft",
+        "role": "AI and Software Engineer Intern",
+        "location": "Plymouth, MN",
+        "date": "May - August 2025",
+        "description": "Designed and built AI inventory assistant using MCP and LangChain to find root causes of supply chain issues, reducing issue resolution time by 60% at Chick-fil-A",
+        "logo": "/logos/new_horizon.jpeg"
+    },
+    {
+        "company": "New Horizon Soft",
+        "role": "Modeling and Software Engineer Intern",
+        "location": "Plymouth, MN",
+        "date": "June 2023 - August 2024",
+        "description": "Developed custom queueing algorithm to manage delivery scheduling to warehouses, saving Chick-fil-A 12 hours per week in planning (published in peer-reviewed journal IJORIS)",
+        "logo": "/logos/new_horizon.jpeg"
     }
 ]

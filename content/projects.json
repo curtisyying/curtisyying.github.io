@@ -1,11 +1,17 @@
 [
     {
         "title": "AI Google Review Agent",
-        "subtitle": "Subtitle",
-        "impact": [
-        "Impact 1",
-        "Impact 2"
-        ],
-        "tech": ["Python", "LangChain", "Qdrant", "Flask", "JavaScript"]
+        "completed": "June 2025",
+        "description": "Chrome extension using RAG, vector databases, and Flask to answer user questions and provide summaries of reviews about Google Maps locations, decreasing search time by 75%-90%",
+        "tech": ["Python", "RAG", "Qdrant", "Cohere", "Flask", "Python", "JavaScript"],
+        "github": "https://github.com/cyying28/EarlyIdeation/tree/main/mapsAIReview"
+    },
+    {
+        "title": "Brown Opinion Project Website",
+        "completed": "April 2025",
+        "description": "Website with custom animations and UI features for Brown Opinion Project, a student-run survey organization",
+        "tech": ["JavaScript", "Tailwind", "CSS", "Cosmic"],
+        "github": "https://github.com/fullstackatbrown/project-bop",
+        "demo": "https://drive.google.com/file/d/1gdQYVkdk05qO53z_AEZvd0qMO5VlhcKH/view?usp=drive_link"
     }
 ]

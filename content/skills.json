@@ -1,4 +1,4 @@
 {
-    "Languages": ["Python", "C/C++", "Java", "SQL"],
-    "Frameworks & Tools": ["PyTorch", "TensorFlow", "Sklearn", "CUDA"]
+    "Languages": ["Python", "C/C++", "Java", "MATLAB", "HTML/CSS", "JavaScript", "TypeScript", "SQL", "Go", "Swift/XCode", "Pyret"],
+    "Frameworks & Tools": ["MCP", "PyTorch", "TensorFlow", "Sklearn", "React", "Pandas", "MatPlotLib", "Full Stack", "Flask", "Docker", "Next.js", "Node.js", "NumPy", "Git", "OracleSQL", "HuggingFace", "Assembly (x86)", "GDB", "LaTeX", "CUDA", "Cosmic"]
 }

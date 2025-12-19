@@ -22,9 +22,9 @@ export const Experience = ({ job }: { job: JobProps }) => {
             </div>
 
             <div className="flex-1">
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1">
-                <h3 className="font-semibold text-gray-900">{job.role}</h3>
-                <span className="text-sm text-gray-500 font-mono">{job.date}</span>
+                <div className="flex justify-between items-start mb-1">
+                    <h3 className="font-semibold text-gray-900">{job.role}</h3>
+                    <span className="text-s text-gray-500 font-mono whitespace-nowrap ml-4 shrink-0 mt-0.5">{job.date}</span>
                 </div>
                 
                 <p className="text-sm font-medium text-gray-700 mb-2 font-mono">{job.company}</p>

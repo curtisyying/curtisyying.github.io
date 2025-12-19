@@ -43,7 +43,7 @@ export default function Home() {
                 <Github size={16} />
                 GitHub
               </a>
-              <a href="https://linkedin.com" target="_blank" className="btn-social">
+              <a href="https://www.linkedin.com/in/curtis-ying-285296288/" target="_blank" className="btn-social">
                 <Linkedin size={16} />
                 LinkedIn
               </a>
@@ -116,7 +116,7 @@ export default function Home() {
       </FadeIn>
 
       <FadeIn delay={0}>
-        <Section title="Publications">
+        <Section title="Papers">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {papers.map((p, i) => (
               <Paper key={i} paper={p} />
@@ -133,7 +133,10 @@ export default function Home() {
                 <h3 className="font-medium text-gray-900 mb-3">{category}</h3>
                 <div className="flex flex-wrap gap-2">
                     {items.map((item, index) => (
-                        <span key={index} className="capsule">
+                        <span 
+                          key={index} 
+                          className="capsule hover:bg-gray-100 hover:text-gray-900 transition-colors cursor-default"
+                        >
                             {item}
                         </span>
                     ))}

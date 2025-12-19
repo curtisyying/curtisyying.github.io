@@ -4,7 +4,9 @@
         "authors": "Curtis Ying & Mike Liebson",
         "venue": "Published in International Journal of Operations Research and Information Studies (2024)",
         "pdf": "/papers/2024ijoris.pdf",
-        "doi": "https://doi.org/10.4018/ijoris.345920"
+        "doi": "https://doi.org/10.4018/ijoris.345920",
+        "highlight": true,
+        "published": true
     },
     {
         "title": "Modeling Food Webs & the Agri-\"culture\" and Sustainability of Farming",
@@ -24,21 +26,28 @@
         "title": "Landing on a Land Use: A Mathematical Modeling Analysis",
         "authors": "",
         "venue": "Finalist of 2024 IMMC Modeling Competition, USA Regionals",
-        "pdf": "/papers/2024m3.pdf",
+        "pdf": "/papers/2024immc.pdf",
         "doi": ""
     },
     {
         "title": "Home-Lessening Homelessness: A Mathematical Exploration",
         "authors": "",
         "venue": "Semi-Finalist of 2024 M3 Modeling Competition (Top 12 / 655), Technical Computing Runner-Up",
-        "pdf": "/papers/2024immc.pdf",
+        "pdf": "/papers/2024m3.pdf",
         "doi": ""
     },
     {
         "title": "Riding into the Future: A Mathematical Exploration of E-bikes",
         "authors": "",
-        "venue": "Semi-Finalist of 2024 M3 Modeling Competition (Top 12 / 683), Technical Computing Honorable Mention",
+        "venue": "Semi-Finalist of 2023 M3 Modeling Competition (Top 12 / 683), Technical Computing Honorable Mention",
         "pdf": "/papers/2023m3.pdf",
+        "doi": ""
+    },
+    {
+        "title": "The Identification, Contextualization, and Prediction of Carbon Dioxide Emissions",
+        "authors": "",
+        "venue": "Finalist of 2022 HiMCM Modeling Competition (Top 7% of 854 teams), IMMC Qualifier",
+        "pdf": "/papers/2022himcm.pdf",
         "doi": ""
     }
 ]

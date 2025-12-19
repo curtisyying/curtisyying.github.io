@@ -102,7 +102,7 @@ export default function Home() {
         </header>
       </FadeIn>
 
-      <FadeIn delay={200}>
+      <FadeIn delay={300}>
         <Section title="Education">
           <div className="space-y-6">
             {education.map((edu, i) => (
@@ -134,7 +134,7 @@ export default function Home() {
         </Section>
       </FadeIn>
 
-      <FadeIn delay={400}>
+      <FadeIn delay={600}>
         <Section title="Experience">
           <div className="space-y-6">
             {experience.map((job, i) => (
@@ -144,7 +144,7 @@ export default function Home() {
         </Section>
       </FadeIn>
 
-      <FadeIn delay={0}>
+      <FadeIn delay={200}>
         <Section title="Projects">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {projects.map((p, i) => (
@@ -154,7 +154,7 @@ export default function Home() {
         </Section>
       </FadeIn>
 
-      <FadeIn delay={0}>
+      <FadeIn delay={200}>
         <Section title="Papers">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {papers.map((p, i) => (
@@ -164,7 +164,7 @@ export default function Home() {
         </Section>
       </FadeIn>
 
-      <FadeIn delay={0}>
+      <FadeIn delay={200}>
         <Section title="Skills">
           <div className="grid gap-6">
             {Object.entries(skills).map(([category, items]) => (

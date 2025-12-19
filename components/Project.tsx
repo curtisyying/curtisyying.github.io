@@ -7,11 +7,16 @@ interface Project {
     tech: string[];
     github?: string;
     demo?: string;
+    highlight?: boolean;
 }
 
 export function Project({ project }: { project: Project }) {
+    const cardStyle = project.highlight 
+        ? '!border-gray-400 ring-1 ring-gray-100' 
+        : '';
+    
     return (
-        <div className="card flex flex-col">
+        <div className={`card flex flex-col just-between ${cardStyle}`}>
             <div className="flex justify-between items-start mb-2">
                 <div className="font-semibold text-gray-900 leading-tight">{project.title}</div>
                 

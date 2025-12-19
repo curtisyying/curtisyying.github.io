@@ -1,6 +1,15 @@
 import { Github, ExternalLink } from 'lucide-react';
 
-export function Project({ project }) {
+interface Project {
+    title: string;
+    description: string;
+    completed: string;
+    tech: string[];
+    github?: string;
+    demo?: string;
+}
+
+export function Project({ project }: { project: Project }) {
     return (
         <div className="card flex flex-col">
             <div className="flex justify-between items-start mb-2">

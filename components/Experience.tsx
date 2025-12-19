@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-type JobProps = {
+type Job = {
     company: string;
     role: string;
     date: string;
@@ -8,7 +8,7 @@ type JobProps = {
     logo: string;
 };
 
-export const Experience = ({ job }: { job: JobProps }) => {
+export const Experience = ({ job }: { job: Job }) => {
     return (
         <div className="flex gap-4 items-start group">
 

@@ -39,7 +39,7 @@ export default function Home() {
                 <MailOpen size={16} />
                 Email
               </a>
-              <a href="https://github.com/cyying28" target="_blank" className="btn-social">
+              <a href="https://github.com/curtisyying" target="_blank" className="btn-social">
                 <Github size={16} />
                 GitHub
               </a>

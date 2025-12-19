@@ -1,4 +1,12 @@
-export function Paper({ paper }) {
+interface Paper {
+    title: string;
+    authors: string;
+    venue: string;
+    pdf?: string;
+    doi?: string;
+}
+
+export function Paper({ paper } : { paper: Paper }) {
     return (
         <div className="card flex flex-col justify-between">
             <div>

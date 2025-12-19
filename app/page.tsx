@@ -1,3 +1,9 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import { FileText, MailOpen, Github, Linkedin } from 'lucide-react';
+
 import Section from '../components/Section';
 import { Project } from '../components/Project';
 import { Paper } from '../components/Paper';
@@ -10,10 +16,44 @@ import skills from '../content/skills.json';
 import experience from '../content/experience.json';
 import education from '../content/education.json';
 
-import Image from 'next/image';
-import { FileText, MailOpen, Github, Linkedin } from 'lucide-react';
-
 export default function Home() {
+  const [showContent, setShowContent] = useState(false);
+  const [opacityClass, setOpacityClass] = useState('opacity-0');
+
+  useEffect(() => {
+    const fadeInTimer = setTimeout(() => {
+      setOpacityClass('opacity-100');
+    }, 100);
+
+    const fadeOutTimer = setTimeout(() => {
+      setOpacityClass('opacity-0');
+    }, 2500);
+
+    const contentTimer = setTimeout(() => {
+      setShowContent(true);
+    }, 3500);
+
+    return () => {
+      clearTimeout(fadeInTimer);
+      clearTimeout(fadeOutTimer);
+      clearTimeout(contentTimer);
+    };
+  }, []);
+
+  if (!showContent) {
+    return (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-white cursor-default px-6">
+        <h1
+          className={`text-4xl md:text-5xl font-bold tracking-tight text-black text-center leading-tight transition-opacity duration-1000 ease-in-out ${opacityClass}`}
+        >
+          ✨Hi!✨ <br />
+          I&apos;m Curtis Ying, <br />
+          and welcome to my website!
+        </h1>
+      </div>
+    );
+  }
+
   return (
     <main className="max-w-6xl mx-auto px-6 py-12">
       <FadeIn delay={0}>
@@ -26,8 +66,8 @@ export default function Home() {
               Applied Math & CS at Brown University
             </p>
             <p className="mb-4 leading-relaxed text-gray-600 font-mono">
-              Hi! I'm Curtis, a student at Brown University studying Applied Math and CS.
-              I'm an aspiring software engineer, with particular interest in frontend, backend, and AI/ML.
+              Hi! I&apos;m Curtis, a student at Brown University studying Applied Math and CS.
+              I&apos;m an aspiring software engineer, with particular interest in frontend, backend, and AI/ML.
             </p>
             
             <div className="flex flex-wrap gap-3">
@@ -39,7 +79,7 @@ export default function Home() {
                 <MailOpen size={16} />
                 Email
               </a>
-              <a href="https://github.com/curtisyying" target="_blank" className="btn-social">
+              <a href="https://github.com/cyying28" target="_blank" className="btn-social">
                 <Github size={16} />
                 GitHub
               </a>
@@ -67,7 +107,6 @@ export default function Home() {
           <div className="space-y-6">
             {education.map((edu, i) => (
               <div key={i} className="space-y-2">
-
                 <div className="flex justify-between items-baseline">
                   <h3 className="font-semibold text-gray-900 text-lg">{edu.school}</h3>
                   <span className="text-sm text-gray-500 font-mono">{edu.date}</span>

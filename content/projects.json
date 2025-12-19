@@ -4,7 +4,7 @@
         "completed": "June 2025",
         "description": "Chrome extension using RAG, vector databases, and Flask to answer user questions and provide summaries of reviews about Google Maps locations, decreasing search time by 75%-90%",
         "tech": ["Python", "RAG", "Qdrant", "Cohere", "Flask", "Python", "JavaScript"],
-        "github": "https://github.com/cyying28/EarlyIdeation/tree/main/mapsAIReview"
+        "github": "https://github.com/curtisyying/EarlyIdeation/tree/main/mapsAIReview"
     },
     {
         "title": "Brown Opinion Project Website",

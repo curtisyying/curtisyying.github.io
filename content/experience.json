@@ -1,19 +1,27 @@
 [
     {
+        "company": "Pinterest",
+        "role": "Software Engineer Intern",
+        "location": "Remote",
+        "date": "May 2026 - Present",
+        "description": "Accelerating test and CI efficiency by projected 50-100% on Pinterest mobile app using commit caching, distributed test shards, and selective testing in Swift, Tuist, and Python",
+        "logo": "/logos/pinterest.jpeg"
+    },
+    {
         "company": "Brown University CS",
-        "role": "Teaching Assistant",
+        "role": "Head Teaching Assistant",
         "location": "Providence, RI",
-        "date": "August 2025 - Present",
-        "description": "Assisting in lecture, project, and exam development for CS300 Computer Systems including hosting weekly sections/office hours, grading, and student support on EdStem",
+        "date": "March 2026 - Present",
+        "description": "Oversee and lead TA hiring, project development, and course content revamp for CS1270 Database Management Systems, including organizing summer course development, TA training camp, weekly staff meetings, and student support",
         "logo": "/logos/brown_cs_dept.jpeg"
     },
     {
-        "company": "GliaLink",
-        "role": "AI and Software Engineer",
+        "company": "Brown University CS",
+        "role": "Teaching Assistant",
         "location": "Providence, RI",
-        "date": "August 2025 - Present",
-        "description": "Developed custom pages and custom AI post-recommendation algorithm for GliaLink, a platform to connect students with labs and research faculty",
-        "logo": "/logos/glialink.jpeg"
+        "date": "August 2025 - May 2026",
+        "description": "Assisting in lecture, project, and exam development for CS300 Computer Systems, including hosting weekly sections/office hours, grading, and student support on EdStem",
+        "logo": "/logos/brown_cs_dept.jpeg"
     },
     {
         "company": "Brown University Lee Lab",

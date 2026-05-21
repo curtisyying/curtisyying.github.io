@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${sora.className} antialiased bg-white`}>
+      <body className={`${inter.variable} ${sora.variable} antialiased bg-white`}>
         {children}
       </body>
     </html>

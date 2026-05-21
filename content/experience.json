@@ -4,7 +4,7 @@
         "role": "Software Engineer Intern",
         "location": "Remote",
         "date": "May 2026 - Present",
-        "description": "Accelerating test and CI efficiency by projected 50-100% on Pinterest mobile app using commit caching, distributed test shards, and selective testing in Swift, Tuist, and Python",
+        "description": "**Accelerating test and CI efficiency by projected 50-100%** on Pinterest mobile app using commit caching, distributed test shards, and selective testing in Swift, Tuist, and Python",
         "logo": "/logos/pinterest.jpeg"
     },
     {
@@ -28,7 +28,7 @@
         "role": "Lead AI Researcher",
         "location": "Providence, RI",
         "date": "June 2025 - Present",
-        "description": "Developing end-to-end multimodal AI models using RL and LLM fine-tuning to improve surgery prediction and planning, with planned deployment to Rhode Island Hospital",
+        "description": "Developing end-to-end multimodal AI models using RL and LLM fine-tuning to improve surgery prediction and planning, with planned **deployment to Rhode Island Hospital**",
         "logo": "/logos/brown_med_school.jpeg"
     },
     {
@@ -36,7 +36,7 @@
         "role": "AI and Software Engineer Intern",
         "location": "Plymouth, MN",
         "date": "May - August 2025",
-        "description": "Designed and built AI inventory assistant using MCP and LangChain to find root causes of supply chain issues, reducing issue resolution time by 60% at Chick-fil-A",
+        "description": "Designed and built AI inventory assistant using MCP and LangChain to find root causes of supply chain issues, **reducing issue resolution time by 60%** at Chick-fil-A",
         "logo": "/logos/new_horizon.jpeg"
     },
     {
@@ -44,7 +44,7 @@
         "role": "Modeling and Software Engineer Intern",
         "location": "Plymouth, MN",
         "date": "June 2023 - August 2024",
-        "description": "Developed custom queueing algorithm to manage delivery scheduling to warehouses, saving Chick-fil-A 12 hours per week in planning (published in peer-reviewed journal IJORIS)",
+        "description": "Developed custom queueing algorithm to manage delivery scheduling to warehouses, **saving Chick-fil-A 12 hours per week** in planning (published in peer-reviewed journal IJORIS)",
         "logo": "/logos/new_horizon.jpeg"
     }
 ]

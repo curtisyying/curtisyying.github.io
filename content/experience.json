@@ -4,7 +4,7 @@
         "role": "Software Engineer Intern",
         "location": "Remote",
         "date": "May 2026 - Present",
-        "description": "**Accelerating test and CI efficiency by projected 50-100%** on Pinterest mobile app using commit caching, distributed test shards, and selective testing in Swift, Tuist, and Python",
+        "description": "Shipped CI testing and build optimizations for Pinterest iOS platform using caching, selective testing, and dynamic sharding, **decreasing build and test time by 40% and infrastructure load by 10%**",
         "logo": "/logos/pinterest.jpeg"
     },
     {
@@ -20,7 +20,7 @@
         "role": "Teaching Assistant",
         "location": "Providence, RI",
         "date": "August 2025 - May 2026",
-        "description": "Assisting in lecture, project, and exam development for CS300 Computer Systems, including hosting weekly sections/office hours, grading, and student support on EdStem",
+        "description": "Assisted in lecture, project, and exam development for CS300 Computer Systems, including hosting weekly sections/office hours, grading, and student support on EdStem",
         "logo": "/logos/brown_cs_dept.jpeg"
     },
     {

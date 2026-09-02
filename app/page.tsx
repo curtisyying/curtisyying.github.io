@@ -67,7 +67,7 @@ export default function Home() {
             </p>
             <p className="mb-4 leading-relaxed text-gray-600 font-mono">
               Hi! I&apos;m Curtis, a student at Brown University studying Applied Math and CS.
-              I&apos;m an aspiring software engineer, with particular interest in frontend, backend, and AI/ML.
+              I&apos;m an aspiring software engineer, with particular interest in backend, system infrastructure, and AI/ML.
             </p>
             
             <div className="flex flex-wrap gap-3">
